@@ -64,3 +64,60 @@ body {
 }
 
 /* We start coding here */
+
+/* Background Colour */
+.bg-color-demo {
+  background-color: coral;
+  color: blue;
+}
+
+/* Background Image */
+.bg-image-demo {
+  background-image: url(https://c8.alamy.com/comp/B52A69/bad-habit-domestic-cat-eating-spaghetti-B52A69.jpg);
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+/* Background Repeat */
+.bg-repeat-demo {
+  background-image: url(https://i.pinimg.com/474x/02/b3/70/02b37055d0d2373583e45e423fea61fc.jpg);
+  background-repeat: repeat;
+  background-size: 100px 100px;
+  color: white;
+}
+
+/* Background Size */
+.bg-size-demo {
+  background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEggRM-kRtqd6CuJXk-0Evx1UyEhvWNL6LkVSplwVYtrK_W_jV5J8sva9-zVbr6yN3lCQqAvhSfLc1BBFWFwO-uMG5GHlhu1Hx_zmA2SZOl31igpf0DGclCAQnSedXyuA6r8qJxt-PSCuu9Y/s1600/Picture+5.png);
+  background-size: cover;
+}
+
+/* Background Position */
+.bg-position-demo {
+  background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEggRM-kRtqd6CuJXk-0Evx1UyEhvWNL6LkVSplwVYtrK_W_jV5J8sva9-zVbr6yN3lCQqAvhSfLc1BBFWFwO-uMG5GHlhu1Hx_zmA2SZOl31igpf0DGclCAQnSedXyuA6r8qJxt-PSCuu9Y/s1600/Picture+5.png);
+background-size: cover;
+background-position: center;
+}
+
+/* Background Attachment */
+.bg-attachment-box {
+background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEggRM-kRtqd6CuJXk-0Evx1UyEhvWNL6LkVSplwVYtrK_W_jV5J8sva9-zVbr6yN3lCQqAvhSfLc1BBFWFwO-uMG5GHlhu1Hx_zmA2SZOl31igpf0DGclCAQnSedXyuA6r8qJxt-PSCuu9Y/s1600/Picture+5.png);
+background-attachment: fixed;
+background-size: cover;
+background-position: center;
+}
+
+.tall-area {
+  height: 2000px;
+}
+
+
+/* Background Shorthand */
+.bg-shorthand-demo {
+  background-color: tomato;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQifNPJ79oI-AU2brtz9CswOwBdOA8RkBTkxDXco9bd8_JxgYafJdUU7dk&s=10);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+

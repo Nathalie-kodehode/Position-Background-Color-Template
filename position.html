@@ -6,5 +6,62 @@
     <title>Position</title>
     <link rel="stylesheet" href="position.css" />
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <div class="container">
+        <h1>CSS position</h1>
+        <p>This page shows main position values in CSS.</p>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="section">
+        <h2>Static</h2>
+        <p>Static is the default. Elements stay in the normal page flow.</p>
+
+        <div class="position-box">
+          <div class="demo static-demo">Static</div>
+        </div>
+      </section>
+
+      <section class="section">
+<h2> Relative </h2>
+<p> Relative keeps the element in the normal flow, but lets us move it with top, bottom, left and right.</p>
+<div class="position-box">
+  <div class="demo relative-demo">
+    Relative
+  </div>
+</div>
+      </section>
+
+<section class="section"> 
+  <h2> Absolute</h2>
+  <p> Absolute moves an element relative to its nearest relative positioned parent.</p>
+  <div class="position-box absolute-parent">
+<div class="demo absolute-demo"> Absolute </div>
+  </div>
+</section>
+<section class="section">
+  <h2> Fixed</h2>
+  <p> Fixed stays in the same place even when the pages scrolls.</p>
+  <div class="fixed-demo"> Fixed </div>
+  <div class="position-box">
+    <div class="demo-note">
+      Look at the bottom right of the screen.
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <h2> Sticky</h2>
+  <p> Sticky acts like relative until it reaches a certain scroll position, then changes to act like fixed.</p>
+  <div class="sticky-demo">
+    Sticky
+  </div>
+  <div class="tall-area position-box">
+    <p> Scroll inside the page to see sticky in action.</p> </div>
+</section>
+
+    </main>
+  </body>
 </html>

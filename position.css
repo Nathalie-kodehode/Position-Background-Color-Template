@@ -56,7 +56,6 @@ body {
   border: 1px solid #cbd5e1;
   height: 180px;
   padding: 20px;
-  position: relative;
 }
 
 .demo {
@@ -69,3 +68,56 @@ body {
 }
 
 /* We start coding here */
+
+/* Static */
+.static-demo {
+  position: static;
+  top: 20px;
+}
+
+/* Relative */
+.relative-demo {
+  position: relative;
+  left: 30px;
+  top: 50px;
+}
+
+/* Absolute */
+.absolute-parent {
+  position: relative;
+}
+
+.absolute-demo {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+/* Fixed */
+
+.fixed-demo {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: tomato;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 8px;
+}
+
+/* Sticky */
+
+.sticky-demo {
+  position: sticky;
+  top: 0;
+  background-color: #22c55e;
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.tall-area {
+  height: 2000px;
+  
+}
